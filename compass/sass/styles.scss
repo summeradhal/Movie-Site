@@ -1,0 +1,41 @@
+
+$mainBgColor: #ddd;
+$lineHeightParent: 30px;
+$lineHeightChildren:20px;
+
+@import 'components/misc/';
+@import 'configs/variables';
+@import 'layout/header';
+@import 'layout/footer';
+
+body{
+	width: 100%;
+	margin:0px;
+	
+	background-image:url("screen.jpg");
+	background-size: cover;
+
+
+}
+
+body{
+
+
+	.container{
+		width:$width;
+		overflow:hidden;
+		&.after-header{
+			margin-top: 20px;
+		}
+			.col{
+				width: getColumnWidth($width,$numColumns,$margin);
+				margin: auto $margin;
+				float:left;
+				@extend .base-font;
+				color:#000;
+				
+			}
+	}
+}
+
+

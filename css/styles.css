@@ -1,0 +1,104 @@
+/**
+ * @file
+ * SMACSS Modules
+ *
+ * Adds modular sets of styles.
+ *
+ * Additional useful selectors can be found in Zen's online documentation.
+ * https://drupal.org/node/1707736
+ */
+/* line 39, ../compass/sass/components/_misc.scss */
+.base-font, body .container .col {
+  font-family: "source-serif-pro",Georgia,"Times New Roman",Times,serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ddd;
+}
+
+/* line 7, ../compass/sass/layout/_header.scss */
+#header {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  background-color: red;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 14, ../compass/sass/layout/_header.scss */
+#header .circle {
+  border-radius: 20px;
+  background-color: #ddd;
+  border: 3px solid #0000ff;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 5, ../compass/sass/layout/_footer.scss */
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  background-color: blue;
+}
+
+/* line 11, ../compass/sass/styles.scss */
+body {
+  width: 100%;
+  margin: 0px;
+ /*  background-image: url("screen.jpg");
+  background-size: cover; */
+}
+
+/* line 24, ../compass/sass/styles.scss */
+body .container {
+  width: 1200px;
+  overflow: hidden;
+}
+/* line 27, ../compass/sass/styles.scss */
+body .container.after-header {
+  margin-top: 20px;
+}
+/* line 30, ../compass/sass/styles.scss */
+body .container .col {
+  width: 100px;
+  margin: auto 10px;
+  float: left;
+  color: #000;
+  height: 300px;
+}
+
+/* .backPic{
+	margin-top: 65px;
+	margin-right: 100px;
+	margin-left: 100px;
+	width: 1700px;
+	height: 700px;
+	background-color: #fff;
+} */
+
+.searchBar{
+	text-align: center;
+	padding-top:20px;
+	
+
+}
+
+.backPic .h3{
+	text-align: center;
+
+}
+
+.poster-grid{
+	width: 1500px;
+	height: 500px;
+}
+.poster-grid img{
+	width: 100px;
+	height: 200px;
+	
+	
+}
+
